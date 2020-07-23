@@ -1,0 +1,16 @@
+{
+  "name": "kubeeapp/kcms-push",
+  "description": "Deployment of themes and plugins directly from GitHub",
+  "keywords": ["kubee", "kcms", "kcms-push"],
+  "homepage": "https://github.com/YourGitHubUsername/example-plugin",
+  "authors": [
+    {
+      "name": "Romeo Covaci",
+      "homepage": "https://github.com/romeocovaci"
+    }
+  ],
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=7.0"
+  }
+}
