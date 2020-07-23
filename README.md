@@ -1,3 +1,3 @@
-# Pain-free deployment of WordPress themes and plugins directly from Github
+# Pain-free deployment of themes and extensions directly from Github
 
-_Learn more: http://wppusher.com/_
+Learn more: <http://kubee.com/>
