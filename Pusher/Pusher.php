@@ -51,10 +51,10 @@ class Pusher implements Container
     public function adminMenu()
     {
         add_menu_page($this->getName(), $this->getName(), 'manage_options', 'wppusher', array($this->make('Pusher\Dashboard'), 'getIndex'), 'dashicons-marker');
+        add_submenu_page('wppusher', 'WP Pusher Settings', 'Settings', 'manage_options', 'wppusher', array($this->make('Pusher\Dashboard'), 'getIndex'), 'dashicons-marker');
         add_submenu_page('wppusher', 'Install Plugin', 'Install Plugin', 'manage_options', 'wppusher-plugins-create', array($this->make('Pusher\Dashboard'), 'getPluginsCreate'));
-        add_submenu_page('wppusher', 'WP Pusher Plugins', 'Plugins', 'manage_options', 'wppusher-plugins', array($this->make('Pusher\Dashboard'), 'getPlugins'));
         add_submenu_page('wppusher', 'Install Theme', 'Install Theme', 'manage_options', 'wppusher-themes-create', array($this->make('Pusher\Dashboard'), 'getThemesCreate'));
-        add_submenu_page('wppusher', 'WP Pusher Themes', 'Themes', 'manage_options', 'wppusher-themes', array($this->make('Pusher\Dashboard'), 'getThemes'));
+        add_submenu_page('wppusher', 'WP Pusher Repositories', 'Repositories', 'manage_options', 'wppusher-repositories', array($this->make('Pusher\Dashboard'), 'getRepositories'));
     }
 
     public function getName()

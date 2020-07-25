@@ -8,15 +8,15 @@
  * registers the activation and deactivation functions, and defines a function
  * that starts the plugin.
  *
- * @link              http://example.com
- * @since             3.0.2
+ * @link              https://github.com/kubeeapp/kcms-push/
+ * @since             3.0.3
  * @package           kcmspush
  *
  * @wordpress-plugin
  * Plugin Name: KCMS Push
  * Plugin URI: https://github.com/kubeeapp/kcms-push
  * Description: Deployment of themes and plugins directly from GitHub.
- * Version: 3.0.2
+ * Version: 3.0.3
  * Author: WP Pusher
  * Author URI: https://github.com/kubeeapp/
  * License: GNU GENERAL PUBLIC LICENSE
@@ -26,8 +26,7 @@
  */
 
 
- // If this file is called directly, abort.
-
+// If this file is called directly, abort.
 if ( ! defined('WPINC')) {
     die;
 }

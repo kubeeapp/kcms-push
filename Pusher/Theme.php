@@ -23,6 +23,7 @@ class Theme implements Package
     protected $pushToDeploy;
     protected $host;
     protected $subdirectory;
+    protected $type = 'theme';
 
     public static function fromWpThemeObject(WP_Theme $object)
     {
